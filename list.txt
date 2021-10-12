@@ -1,0 +1,24 @@
+code --install-extension esbenp.prettier-vscode
+code --install-extension hediet.debug-visualizer
+code --install-extension kdarkhan.mips
+code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-toolsai.jupyter-keymap
+code --install-extension ms-toolsai.jupyter-renderers
+code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension ms-vscode-remote.remote-ssh-edit
+code --install-extension ms-vscode.cpptools
+code --install-extension PKief.material-icon-theme
+code --install-extension rangav.vscode-thunder-client
+code --install-extension redhat.java
+code --install-extension TabNine.tabnine-vscode
+code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension vscjava.vscode-java-debug
+code --install-extension vscjava.vscode-java-dependency
+code --install-extension vscjava.vscode-java-pack
+code --install-extension vscjava.vscode-java-test
+code --install-extension vscjava.vscode-maven
+
+Produced with the following command:
+code --list-extensions | xargs -L 1 echo code --install-extension > list.txt
